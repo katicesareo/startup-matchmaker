@@ -4,13 +4,14 @@
     <title>Sign Up</title>
 
       <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
-      <link rel="stylesheet" href="../css/reset.css">
-      <link rel="stylesheet" href="../css/style.css">
-      <link rel="stylesheet" href="../css/signup.css">
+      <link rel="stylesheet" href="/css/reset.css">
+      <link rel="stylesheet" href="/css/style.css">
+      <link rel="stylesheet" href="/css/comp/signup.css">
 
 
-      <script src="js/xhrHandler.js"></script>
-      <script src="js/signup.js"></script>
+      <script src="/js/xhrHandler.js"></script>
+
+      <script src="/js/components/signup.js"></script>
 
   </head>
 
@@ -26,26 +27,26 @@
     <img src= "/img/no-avatar.jpg">
 
     <div>
-      <p id="choosefile" onClick="Submit()">Choose File</p>
+      
+      <input type="file" id="imageInput">
     </div>
 
     </div>
 
-    <form>
+    
 
       <div>
-        <input type="text" name="email address" placeholder="email address"><br>
-        <input type="text" name="username" placeholder="username"><br>
-        <input type="text" name="password" placeholder="password"><br>
-        <input type="text" name="first name" placeholder="first name"><br>
-        <input type="text" name="last name" placeholder="last name"><br>
+        <input type="text" name="email address" id="emailInput" placeholder="email address"><br>
+        <input type="text" name="username" id="userNameInput" placeholder="username"><br>
+        <input type="text" name="password" id="passwordInput" placeholder="password"><br>
+        <input type="text" name="first name" id="firstNameInput" placeholder="first name"><br>
+        <input type="text" name="last name" id="lastNameInput" placeholder="last name"><br>
       </div>
 
         <div>
-          <p id="createuser" onClick="Submit()">Create User</p>
+          <button id="createuser">Create User</button>
         </div>
 
-    </form>
 
       <p><h3><a href="#">Already have an account?</a></h3></p>
 
@@ -57,6 +58,6 @@
   <p id="copyright">&copy;2015 Startup Matchmaker. Made in LA.</p>
 
 </footer>
-
+    <script src="/js/controllers/signup-view-controller.js"></script>
 </body>
 </html>
