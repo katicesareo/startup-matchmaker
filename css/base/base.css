@@ -20,7 +20,6 @@
 header {
     background-color:#DCE0D9;
     width: 100%;
-    background-size: cover;
     padding-top:0px;
     padding-bottom:0px;
     padding: 0px;
@@ -30,6 +29,7 @@ header {
 
 body {
     background-image: url("/img/bgpattern.png");
+    background-size: cover;
     color: #DCE0D9;
     font-size: 16px;
     line-height: 2;
