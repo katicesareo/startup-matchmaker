@@ -30,7 +30,6 @@ header {
 
 body {
     background-image: url("/img/bgpattern.png");
-    background-size: cover;
     color: #DCE0D9;
     font-size: 16px;
     line-height: 2;
