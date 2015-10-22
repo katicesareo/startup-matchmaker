@@ -1,18 +1,108 @@
+
+a:link,a:visited {
+  color: #DCE0D9;
+  text-align: center;
+}
+
+.matchbutton {
+  background-color: #BC261D;
+  border-radius: 5px;
+  padding: 4px 30px 4px 30px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+matchbutton {
+  display: inline;
+  width: 20%;
+
+  position: relative;
+  background-color: #BC261D;
+  border-radius: 5px;
+  margin: 0px 20px 20px 20px;
+
+}
+
+.button {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  background-color: #BC261D;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.match {
+  width: 30%;
+  margin-top: 25px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  float: right;
+}
+
+.match p {
+  margin-bottom: 20px;
+}
+
 #banner {
   background-color: #FFFFFF;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  width: 100%;
+  padding: 25px 0px 25px 0px;
+  margin-top: 325px;
+
 }
 
-h4 {
+#banner h1 {
   color: black;
   font-size: 32px;
-  text-align: center;
-  font-family: 'Open Sans', Arial, sans-serif;
   font-weight:100;
+  text-align: center;
 }
 
-footer #index {
-  background-color: #FFFFFF;
+#bottom  p {
+  margin-bottom: 15px;
+}
+
+#bottom h2 {
+  font-size: 20px;
+  line-height: 2;
+}
+
+.profile {
+  width: 25%;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  float: left;
+}
+
+.search {
+  width: 25%;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  float:left;
+}
+
+.designer {
+  width: 25%;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  float:right;
+}
+
+
+footer {
+  width: 100%;
+  margin-top: 280px;
+  background-color: white;
+}
+
+#copyright {
   color: black;
 }

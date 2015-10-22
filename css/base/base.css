@@ -31,7 +31,7 @@ header {
 body {
     background-image: url("/img/bgpattern.png");
     color: #DCE0D9;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 2;
     font-family: 'Open Sans', Arial, sans-serif;
     padding: 0px;
@@ -50,8 +50,8 @@ body {
 
    h2 {
      color: #DCE0D9;
-     font-size: 22px;
-     line-height: 4;
+     font-size: 24px;
+     line-height: 2;
      font-family: 'Open Sans', Arial, sans-serif;
      font-weight: 300;
    }
@@ -65,17 +65,18 @@ body {
 
    a:link,a:visited{
     color:#BC261D;
+    text-decoration: none;
   }
 
   a:hover{
     color:#851513;
   }
 
-  p{
+  p {
     line-height:1.3em;
   }
 
-  footer{
+  footer {
     padding-top: 40px;
     padding-bottom: 40px;
     text-align: center;
