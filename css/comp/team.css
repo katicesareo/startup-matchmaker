@@ -1,0 +1,21 @@
+#logout {
+
+}
+
+#user-gallery {
+
+}
+
+aside {
+  float: left;
+  background: #DCE0D9;
+  width: 25%;
+  height: 100%;
+}
+
+aside #add-form {
+  display: flex;
+  
+
+
+}
