@@ -1,5 +1,5 @@
 
-img {
+ img {
   border-radius: 50%;
   padding-top: 10px;
   padding-bottom: 20px;
@@ -10,10 +10,10 @@ img {
  button {
   width: 100%;
   background-color: white;
-  padding: 20px;
+  padding: 10px;
   border-radius: 10px;
   color: black;
-  background-color: #DCE0D9;
+  background-color: white;
   margin-bottom: 20px;
 }
 
@@ -35,6 +35,7 @@ form input {
 
 #createuser {
     background-color: #BC261D;
+    color: white;s
     text-align: center;
     width: 100%;
     font-size: 20px;
