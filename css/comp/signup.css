@@ -7,7 +7,7 @@ img {
   margin-left: 10%;
 }
 
-#choosefile {
+ button {
   width: 100%;
   background-color: white;
   padding: 20px;
@@ -41,9 +41,4 @@ form input {
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
-}
-
-p h3 a {
-  color:#BC261D;
-  text-decoration: none;
 }
