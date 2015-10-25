@@ -1,11 +1,14 @@
+/* style for logout link in header*/
 #logout {
 
 }
-
-#user-gallery {
+/*style for the gallery of users as a whole*/ 
+#gallery {
 
 }
 
+
+/* not finished -style for box on right side to build team*/
 aside {
   float: left;
   background: #DCE0D9;
@@ -13,9 +16,26 @@ aside {
   height: 100%;
 }
 
+/* not finished -style for list in asie*/
 aside #add-form {
   display: flex;
-  
 
+
+}
+/* Style for draggable user profile box */
+
+.drag {
+  height: 300px;
+  width: 400px;
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  cursor: pointer;
+  margin: 20px;
+}
+
+/* not finished - style for thumbnail when dropped into team list*/
+.drag2 {
+  height: 100px;
+  border-radius: 50px;
 
 }
