@@ -1,24 +1,26 @@
 /* style for logout link in header*/
 #logout {
-
+  color: #BC261D;
+  font-size: 14px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-weight: 100;
+  text-align: right;
+  margin-right: 20px;
 }
-/*style for the gallery of users as a whole*/ 
+/*style for the gallery of users as a whole*/
 #gallery {
 
 }
 
 
 /* not finished -style for box on right side to build team*/
-aside {
+#aside-container {
   float: left;
   background: #DCE0D9;
-  width: 25%;
-  height: 100%;
 }
 
 /* not finished -style for list in asie*/
-aside #add-form {
-  display: flex;
+
 
 
 }
