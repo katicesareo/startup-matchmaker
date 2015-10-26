@@ -6,9 +6,9 @@
     <title>Team</title>
 
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/team.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/team.css">
     <script src="js/xhrHandler.js"></script>
 
   </head>
@@ -21,11 +21,16 @@
         <p id="logout" onClick="Submit()">Logout</p>
     </header>
 
-        <div id="user-gallery"></div>
 
+       <div id="dragged" class="drag" draggable="true"
+       ondragstart="event.dataTransfer.setData('text/pain',null)"></div>
+
+
+        <div id="gallery"></div>
 
     <aside>
-        <div id="add-form"></div>
+
+      <div id="add-form" class="droppable" droppable="true"></div>
 
     </aside>
 
@@ -34,5 +39,6 @@
       </footer>
 
   </body>
-  
+
   </html>
+      <script src="../js/components/team.js"></script>
