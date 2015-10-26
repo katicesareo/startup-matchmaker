@@ -1,21 +1,45 @@
+/* style for logout link in header - need to move */
 #logout {
-
+  color: #BC261D;
+  font-size: 14px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-weight: 100;
+  text-align: right;
+  margin-right: 20px;
 }
+/*style for the gallery of users as a whole*/
+#gallery
 
-#user-gallery {
+  /* Style for draggable user profile box - need to fix - not appearing in browser */
+  .drag {
+    float: left;
+    clear: left;
+    height: 300px;
+    width: 400px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 20px;
+  }
 
-}
 
 aside {
-  float: left;
-  background: #DCE0D9;
-  width: 25%;
-  height: 100%;
+    position:fixed;
+    top: 80px;
+    left: 0px;
+    width: 20%;
+    height: 100%;
+    background: #DCE0D9;
 }
 
-aside #add-form {
-  display: flex;
-  
+/* will need to style text-input box + add sign and  */
+#addForm
 
+
+
+/* not finished - style for thumbnail when dropped into team list*/
+.drag2 {
+  height: 100px;
+  border-radius: 50px;
 
 }
