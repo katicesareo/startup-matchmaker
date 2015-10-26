@@ -13,7 +13,7 @@ console.log(user[0].lastName)
 //add below into loop with each li
 
 
-//dragged function 
+//dragged function
 var div = document.getElementById('dragged');
 console.log(div)
 div.addEventListener('dragstart', function(ev){
@@ -37,3 +37,7 @@ document.addEventListener("drop", function(event){
   };
 })
 // build loop through container
+
+
+// aside-container: string for list
+var 
