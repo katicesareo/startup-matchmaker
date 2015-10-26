@@ -1,4 +1,4 @@
-/* style for logout link in header*/
+/* style for logout link in header - need to move */
 #logout {
   color: #BC261D;
   font-size: 14px;
@@ -10,7 +10,7 @@
 /*style for the gallery of users as a whole*/
 #gallery
 
-  /* Style for draggable user profile box */
+  /* Style for draggable user profile box - need to fix - not appearing in browser */
   .drag {
     float: left;
     clear: left;
@@ -23,8 +23,6 @@
   }
 
 
-
-/* not finished -style for box on right side to build team*/
 aside {
     position:fixed;
     top: 80px;
@@ -33,6 +31,10 @@ aside {
     height: 100%;
     background: #DCE0D9;
 }
+
+/* will need to style text-input box + add sign and  */
+#addForm
+
 
 
 /* not finished - style for thumbnail when dropped into team list*/
