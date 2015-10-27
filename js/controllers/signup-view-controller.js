@@ -14,6 +14,6 @@ button.addEventListener('click',function(){
       image: document.getElementById("imageInput").value
     }
   }).then(function(){
-    //do something when there is a response
+    window.location.pathname = '/views/team.html';
   });
 });
