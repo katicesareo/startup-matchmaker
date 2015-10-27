@@ -2,19 +2,8 @@
  img {
   border-radius: 50%;
   padding-top: 10px;
-  padding-bottom: 20px;
-  height: 300px;
-  margin-left: 10%;
-}
-
- button {
-  width: 100%;
-  background-color: white;
-  padding: 10px;
-  border-radius: 10px;
-  color: black;
-  background-color: white;
-  margin-bottom: 20px;
+  height: 200px;
+  margin-left: 20%;
 }
 
 #form {
@@ -25,21 +14,21 @@
   padding: 15px;
 }
 
-form input {
+#form input {
     width: 100%;
-    font-size:20px;
-    padding: 20px;
+    font-size:18px;
+    padding: 10px;
     border-radius: 10px;
     margin-bottom: 20px;
+    border: 0px solid;
 }
 
 #createuser {
-    background-color: #BC261D;
-    color: white;s
-    text-align: center;
-    width: 100%;
-    font-size: 20px;
-    padding: 20px;
-    border-radius: 10px;
-    margin-bottom: 20px;
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #BC261D;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  text-align: center;
 }
